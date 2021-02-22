@@ -1,6 +1,18 @@
 <div class="bg">
     <img class="logo" src="./assets/DS.png">
-    <div class="need-support">
-        <app-link-card></app-link-card>
+    <div class="container-fluid">
+        <div class="row mt-5">
+            <div class="col-md-6">
+                <div class="need-support">
+                    <app-link-card [linkInfo]='needSupport'></app-link-card>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="provide-support">
+                    <app-link-card [linkInfo]='provideSupport'></app-link-card>
+                </div>
+            </div>
+
+        </div>
     </div>
 </div>

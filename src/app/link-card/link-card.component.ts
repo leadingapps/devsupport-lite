@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-link-card',
@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./link-card.component.scss']
 })
 export class LinkCardComponent implements OnInit {
-
+  @Input()  linkInfo;
   constructor() { }
 
   ngOnInit(): void {
