@@ -1,3 +1,10 @@
 .full-bg{
     background-color: #f3f3f3;
 }
+
+@media(max-width: 720px){
+    .adjust-padding{
+        padding-left: 0px;
+        padding-top: 150px;
+    }
+}
