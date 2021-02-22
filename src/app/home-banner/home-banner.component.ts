@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeBannerComponent implements OnInit {
 
-  needSupport = {header: 'I am looking for Supoort', subHeader: 'Support starting as low as $10 per issue*'}
-  provideSupport = {header: 'I Can provide technical Supoort', subHeader: 'Best oppurtunity to get paid for your skills.'}
+  needSupport = {header: 'I am looking for Support', subHeader: 'Support starting as low as $10 per issue*'}
+  provideSupport = {header: 'I Can provide technical Support', subHeader: 'Best oppurtunity to get paid for your skills.'}
   constructor() { }
   
   ngOnInit(): void {

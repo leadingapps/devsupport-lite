@@ -1,14 +1,12 @@
 <div class="bg">
-    <img class="logo" src="./assets/DS.png">
-    
-    <div class="container-fluid">
-        <div class="row mt-5">
+    <div class="container-fluid link-cont">
+        <div class="row">
             <div class="col-md-6">
-                <div class="need-support">
+                <div class="need-support"  routerLink='/need-support'>
                     <app-link-card [linkInfo]='needSupport'></app-link-card>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6"  routerLink='/provide-support'>
                 <div class="provide-support">
                     <app-link-card [linkInfo]='provideSupport'></app-link-card>
                 </div>
