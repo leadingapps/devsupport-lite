@@ -8,6 +8,8 @@ import { LinkCardComponent } from './link-card/link-card.component';
 import { HeaderComponent } from './header/header.component';
 import { NeedSupportComponent } from './need-support/need-support.component';
 import { ProvideSupportComponent } from './provide-support/provide-support.component';
+import { TermsComponent } from './terms/terms.component';
+import { PrivacyComponent } from './privacy/privacy.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { ProvideSupportComponent } from './provide-support/provide-support.compo
     LinkCardComponent,
     HeaderComponent,
     NeedSupportComponent,
-    ProvideSupportComponent
+    ProvideSupportComponent,
+    TermsComponent,
+    PrivacyComponent
   ],
   imports: [
     BrowserModule,
