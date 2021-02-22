@@ -10,6 +10,7 @@ import { NeedSupportComponent } from './need-support/need-support.component';
 import { ProvideSupportComponent } from './provide-support/provide-support.component';
 import { TermsComponent } from './terms/terms.component';
 import { PrivacyComponent } from './privacy/privacy.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { PrivacyComponent } from './privacy/privacy.component';
     NeedSupportComponent,
     ProvideSupportComponent,
     TermsComponent,
-    PrivacyComponent
+    PrivacyComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

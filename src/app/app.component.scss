@@ -1,9 +1,19 @@
 .router-outlet{
     height: 100%;
     position: relative;
+    margin-bottom: 100px;
+
     // z-index: -1;
     // // background-color: rgb(229 229 247 / 20%);
     // // background-image: radial-gradient(rgb(0 0 0 / 20%) 1px, rgb(229 229 247 / 20%) 1px);
     // background-size: 20px 20px;
     // background-color: #f6f6f6;
+}
+
+app-footer{
+    position: fixed;
+    bottom: 0;
+    background: #545454;
+    width: 100%;
+    opacity: 0.9;
 }
