@@ -12,3 +12,13 @@ body, html {
   .adjust-padding{
       padding-left: 100px;
   }
+
+  .adjust-margin{
+    margin: 150px !important;
+}
+
+@media(max-width:720px){
+    .adjust-margin {
+        margin: 150px 20px!important;
+    }
+}
